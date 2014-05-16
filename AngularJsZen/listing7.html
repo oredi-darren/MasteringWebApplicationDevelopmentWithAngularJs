@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Test</title>
+    <script src="angular.js"></script>
+    <script>
+        var HelloCtrl = function ($scope) {
+        }
+    </script>
+</head>
+<body ng-app ng-init="thing = { name: 'World'}">
+<h1>Hello, {{ thing.name }}</h1>
+
+<div ng-controller="HelloCtrl">
+    Say hello to <input type="text" ng-model="thing.name"/>
+
+    <h1>Hello, {{ thing.name }}!</h1>
+</div>
+</body>
+</html>

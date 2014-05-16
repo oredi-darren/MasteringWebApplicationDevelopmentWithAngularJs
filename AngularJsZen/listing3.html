@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Test</title>
+    <script src="angular.js"></script>
+    <script>
+        var HelloCtrl = function($scope) {
+            $scope.name = 'Darren';
+
+            $scope.getName = function () {
+                return $scope.name;
+            };
+        }
+    </script>
+</head>
+<body ng-app ng-controller="HelloCtrl">
+Say hello to <input type="text" ng-model="name" />
+<h1>Hello, {{ getName() }}!</h1>
+</body>
+</html>

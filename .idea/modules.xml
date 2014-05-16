@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AngularJScrum/AngularJScrum.iml" filepath="$PROJECT_DIR$/AngularJScrum/AngularJScrum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AngularJsZen/AngularJsZen.iml" filepath="$PROJECT_DIR$/AngularJsZen/AngularJsZen.iml" />
       <module fileurl="file://$PROJECT_DIR$/MasteringWebApplicationDevelopmentWithAngularJs.iml" filepath="$PROJECT_DIR$/MasteringWebApplicationDevelopmentWithAngularJs.iml" />
     </modules>
   </component>
